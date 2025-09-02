@@ -18,12 +18,12 @@ func ConnectDatabase() {
 
 	// 配置 GORM 日志器
 	newLogger := logger.New(
-		log.New(os.Stdout, "\r\n", log.LstdFlags), // 输出到标准输出，带换行
+		log.New(os.Stdout, "\r\n", log.LstdFlags),
 		logger.Config{
-			SlowThreshold:             time.Second, // 定义慢 SQL 阈值
-			LogLevel:                  logger.Info, // 关键：设为 Info 级别，显示 SQL
-			IgnoreRecordNotFoundError: true,        // 忽略记录未找到的错误（比如 Find 没查到）
-			Colorful:                  true,        // 启用颜色（可选）
+			SlowThreshold:             time.Second,
+			LogLevel:                  logger.Info,
+			IgnoreRecordNotFoundError: true,
+			Colorful:                  true,
 		},
 	)
 

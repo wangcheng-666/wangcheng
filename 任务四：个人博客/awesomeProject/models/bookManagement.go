@@ -10,7 +10,7 @@ type User struct {
 	Name      string
 	PostCount int `gorm:"default:0"` // 文章数量统计
 
-	// ✅ 一对多：一个用户可以有多篇文章
+	//  一对多：一个用户可以有多篇文章
 	Posts []Post `gorm:"foreignKey:UserID"`
 }
 
@@ -42,7 +42,7 @@ type Post struct {
 	CommentStatus  string `gorm:"default:'有评论'"`
 
 	User     User      // 多对一：这篇文章属于哪个用户
-	Comments []Comment `gorm:"foreignKey:PostID"` // ✅ 一对多：一篇文章可以有多个评论
+	Comments []Comment `gorm:"foreignKey:PostID"` //一对多：一篇文章可以有多个评论
 }
 
 func (p *Post) AfterCreate(tx *gorm.DB) error {
