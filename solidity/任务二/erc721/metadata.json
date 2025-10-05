@@ -1,0 +1,15 @@
+{
+  "name": "My Test NFT",
+  "description": "This is My metadata.",
+  "image": "https://silver-manual-heron-8.mypinata.cloud/ipfs/bafkreidticfu2he7t74lgmoyxkbpeq4pk26ndhzv6gdyr6km6ezdkntvuu",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    }
+  ]
+}
