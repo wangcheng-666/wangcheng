@@ -1,0 +1,84 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Administrator\\Desktop\\staking-coverage\\contracts\\ERC20Mock.sol": {
+      "lastModificationDate": 1762506256991,
+      "contentHash": "220c4f9e3893430e03762d30d971a92c",
+      "sourceName": "contracts/ERC20Mock.sol",
+      "solcConfig": {
+        "version": "0.8.30",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.30"
+      ],
+      "artifacts": [
+        "ERC20Mock"
+      ]
+    },
+    "C:\\Users\\Administrator\\Desktop\\staking-coverage\\contracts\\Staking.sol": {
+      "lastModificationDate": 1762521301789,
+      "contentHash": "b5a0a46ce92f5942eb3f409f0cbdf9df",
+      "sourceName": "contracts/Staking.sol",
+      "solcConfig": {
+        "version": "0.8.30",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.30"
+      ],
+      "artifacts": [
+        "IERC20",
+        "Staking"
+      ]
+    }
+  }
+}
